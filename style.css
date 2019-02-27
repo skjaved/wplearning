@@ -1,0 +1,107 @@
+/*
+Theme Name: WP Learning
+Author: Javed
+Description: First wordpress website
+*/
+
+/*  HEADER */
+.site-header {
+  height: 150px;
+  background: #f0f0f0;
+}
+
+.site-branding {
+  text-align: center;
+  width: 100%;
+  clear: both;
+}
+
+.site-branding a {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.site-branding img {
+  max-width: 200px;
+  max-height: 100px;
+}
+
+/* MAIN MENU */
+.site-navigation {
+  width: 100%;
+  display: block;
+  clear: both;
+  background: #2ca358;
+  height: 60px;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 15px 25px;
+  margin-top: 3px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu li:hover {
+  background-color: #333;
+}
+
+/* HOME CONTENT */
+.home-main {
+  margin-top: 15px;
+}
+
+.custom-header {
+  margin-bottom: 15px;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.home-posts {
+  background: #f0f0f0;
+  padding: 30px 30px !important;
+  margin-bottom: 15px;
+}
+
+/* SIDEBAR & WIDGETS */
+.home-sidebar {
+  background: #ddd;
+}
+
+.widget-title {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #fff;
+    background: #333;
+    padding: 10px 0px 10px 10px;
+}
+
+.main-sidebar-inner ul li a {
+    color: #333333;
+}
+
+/* FOOTER */
+.site-footer {
+  margin-top: 15px;
+  background: #333;
+  height: 200px;
+}
+
+.footer-widgets ul li a,
+.footer-widgets ul li {
+    color: #fff;
+    text-decoration: none;
+}
