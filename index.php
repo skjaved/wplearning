@@ -38,6 +38,8 @@
     </div>
 </div>
 
+<p>Niraj</p>
+
 <?php
     get_footer();
 ?>
